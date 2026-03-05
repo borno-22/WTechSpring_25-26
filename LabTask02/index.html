@@ -1,42 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng">
 <head>
-    <title>Student Portal</title>
+    <title>Contact Us Form</title>
+    <link rel ="stylesheet" href = "style.css">
 </head>
+
 <body>
-    <h1>Contact us</h1>
-    <form action="submit">
+    <h1>Contact Us</h1>
+    <form>
         <table>
             <tr>
                 <td>
-                    <label for="Fname" name="FirstName">First Name</label><br>
-                    <input type="text" id="FirstName" name="FirstName">
+                    <b><label for = "FName"> FIRST NAME </label><br></b>
+                    <input type = "text" id = "FName" name = "FName"><br><br>
                 </td>
                 <td>
-                    <label for="Lname" name="Lname">LastName</label><br>
-                    <input type="text" id="LastName" name="LastName">
+                    <b><label for = "LName"> LAST NAME </label><br></b>
+                    <input type = "text" id = "LName" name = "LName"><br><br>
                 </td>
             </tr>
+
             <tr>
                 <td>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email">
+                    <b><label for = "Email"> EMAIL </label><br></b>
+                    <input type = "email" id = "Email" name = "Email"><br><br>
                 </td>
                 <td>
-                    <label for="phone">Phone Number</label><br>
-                    <input type="number" id="PhoneNumber" name="PhoneNumber">
+                    <b><label for = "PNumber"> PHONE NUMBER </label><br></b>
+                    <input type = "number" id = "PNumber" name = "PNumber"><br><br>
                 </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="query">WHAT DO YOU HAVE IN MIND</label><br>
-                    <textarea name="query" id="query">Please enter query</textarea>
-                </td>
-            </tr>
-            <tr>
-                <td><input type="submit"></td>
             </tr>
         </table>
+
+        <b><label for = "Message"> WHAT DO YOU HAVE IN MIND </label><br></b>
+        <textarea id = "Message" name = "Message" rows = "4" cols = "30" placeholder="Please enter query..."></textarea><br><br>
+
+        <input type = "submit" id = "Submit" name = "Submit">
     </form>
 </body>
-</html>
