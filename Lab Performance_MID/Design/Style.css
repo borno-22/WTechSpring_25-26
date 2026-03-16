@@ -14,3 +14,14 @@ body {
     padding: 30px;
     width: 310px;
 }
+
+.title {
+    position: absolute;
+    top: -9px;
+    left: 15px;
+    background: linear-gradient(to bottom, #f4f4f4 50%, white 50%);
+    padding: 0 10px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
