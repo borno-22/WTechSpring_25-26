@@ -1,0 +1,14 @@
+textarea{
+    display: block;
+    width: 90%;
+    height: 15rem;
+    justify-self: center;
+}
+
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+.show{
+    margin-bottom: 16px;
+}

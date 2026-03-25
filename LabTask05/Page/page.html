@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Text Analyser</title>
+    <link rel="stylesheet" href="../Style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Text Analyser</h1>
+    </header>
+    <hr>
+    <div class="container_input">
+        <label for="input_text">Input your text</label>
+        <textarea name="input_text" id="input_text" placeholder="START WRITING FROM WHERE............."></textarea>
+        <button type="button" onclick="analyse()">Analyze</button>
+        <button type="button" onclick="resetFields()">Reset</button>
+    </div>
+    <hr>
+    <div class="container_show">
+        <label for="total_character">Total Character</label>
+        <input type="text" id="total_character" value="0" readonly class="show">
+        <label for="total_word">Total Word</label>
+        <input type="text" id="total_word" value="0" readonly class="show">
+        <label for="reverse">Reverse Order</label>
+        <textarea name="reverse_text" id="reverse_text" placeholder="THE_REVERSE_FORM............"></textarea>
+    </div>
+
+    <script src="../Js/validation.js"></script>
+</body>
+
+</html>
