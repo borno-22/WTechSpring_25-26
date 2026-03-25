@@ -13,9 +13,12 @@
     <hr>
     <div class="container_input">
         <label for="input_text">Input your text</label>
-        <textarea name="input_text" id="input_text" placeholder="START WRITING FROM WHERE............."></textarea>
-        <button type="button" onclick="analyse()">Analyze</button>
-        <button type="button" onclick="resetFields()">Reset</button>
+        <textarea name="input_text" id="input_text" placeholder="START WRITING FROM HERE............."></textarea>
+        <div class="btn_group">
+        <button type="button" onclick="analyse()" class="btn1">Analyze</button>
+        <button type="button" onclick="resetFields()" class="btn2">Reset</button>            
+        </div>
+
     </div>
     <hr>
     <div class="container_show">
@@ -24,7 +27,7 @@
         <label for="total_word">Total Word</label>
         <input type="text" id="total_word" value="0" readonly class="show">
         <label for="reverse">Reverse Order</label>
-        <textarea name="reverse_text" id="reverse_text" placeholder="THE_REVERSE_FORM............"></textarea>
+        <textarea name="reverse_text" id="reverse_text" readonly class="show" placeholder="THE REVERSE FORM............."></textarea>
     </div>
 
     <script src="../Js/validation.js"></script>
