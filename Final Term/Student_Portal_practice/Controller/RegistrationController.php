@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // 6. Handle the File Upload
         if ($file) {
-            $targetDictionary = "./File";
+            $targetDictionary = "../File/";
 
             // Combine the directory with the actual name of the file (e.g., ../File/profile.jpg)
             $filepath = $targetDictionary . basename($file["name"]);
@@ -42,6 +42,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     } else {
 
-        echo "Validation Failed: Username must be at least 5 characters and password 4 characters.";
+        echo "Validation Failed: Username must be at least 5 characters and password 6 characters.";
     }
 }
